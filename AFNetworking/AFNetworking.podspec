@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/wbhs614/TestA.git', :tag => s.version }
 
   s.ios.deployment_target = '9.0'
-  s.osx.deployment_target = '10.10'
+  #s.osx.deployment_target = '10.10'
   #s.watchos.deployment_target = '2.0'
-  s.tvos.deployment_target = '9.0'
+  #s.tvos.deployment_target = '9.0'
 
   s.ios.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.alamofire.AFNetworking' }
   s.osx.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.alamofire.AFNetworking' }
