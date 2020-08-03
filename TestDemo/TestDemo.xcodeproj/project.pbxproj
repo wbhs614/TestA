@@ -16,7 +16,7 @@
 		5140B1AF24D81C8D00706CB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5140B1AE24D81C8D00706CB6 /* main.m */; };
 		5140B1B924D81C8D00706CB6 /* TestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5140B1B824D81C8D00706CB6 /* TestDemoTests.m */; };
 		5140B1C424D81C8D00706CB6 /* TestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5140B1C324D81C8D00706CB6 /* TestDemoUITests.m */; };
-		5140B1D224D81DF400706CB6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5140B1D124D81DF400706CB6 /* Podfile */; };
+		5140B1D424D82F2100706CB6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5140B1D324D82F2100706CB6 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,7 @@
 		5140B1BF24D81C8D00706CB6 /* TestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5140B1C324D81C8D00706CB6 /* TestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoUITests.m; sourceTree = "<group>"; };
 		5140B1C524D81C8D00706CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5140B1D124D81DF400706CB6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		5140B1D324D82F2100706CB6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +112,12 @@
 				5140B1A024D81C8900706CB6 /* SceneDelegate.m */,
 				5140B1A224D81C8900706CB6 /* ViewController.h */,
 				5140B1A324D81C8900706CB6 /* ViewController.m */,
+				5140B1D324D82F2100706CB6 /* Podfile */,
 				5140B1A524D81C8900706CB6 /* Main.storyboard */,
 				5140B1A824D81C8D00706CB6 /* Assets.xcassets */,
 				5140B1AA24D81C8D00706CB6 /* LaunchScreen.storyboard */,
 				5140B1AD24D81C8D00706CB6 /* Info.plist */,
 				5140B1AE24D81C8D00706CB6 /* main.m */,
-				5140B1D124D81DF400706CB6 /* Podfile */,
 			);
 			path = TestDemo;
 			sourceTree = "<group>";
@@ -245,7 +245,7 @@
 			files = (
 				5140B1AC24D81C8D00706CB6 /* LaunchScreen.storyboard in Resources */,
 				5140B1A924D81C8D00706CB6 /* Assets.xcassets in Resources */,
-				5140B1D224D81DF400706CB6 /* Podfile in Resources */,
+				5140B1D424D82F2100706CB6 /* Podfile in Resources */,
 				5140B1A724D81C8900706CB6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,9 +2,14 @@ source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/aliyun/aliyun-specs.git'
 source 'https://github.com/wbhs614/TestB.git'
 
-
-target ‘TestDemo'do
-    pod 'TestA', '~> 3.2.1'
+platform :ios, '9.0'
+inhibit_all_warnings!
+use_frameworks!
+xcodeproj 'TestDemo.xcodeproj'
+ 
+target ‘TestDemo' do
+   pod 'TestA', '~> 3.2.1'
 end
+
 
 
